@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-node-service
+  description: Servicio básico en Node.js para Backstage
+  tags:
+    - nodejs
+    - express
+spec:
+  type: service
+  lifecycle: production
+  owner: equipo-dev
